@@ -1,0 +1,26 @@
+# SYSTEM DESCRIPTION:
+
+The SwapIt project aims to create a platform that allows people to exchange skills and knowledge in a simple and immediate way. The main objective is to promote mutual learning, break down the economic barriers associated with education, and build an active and inclusive community.
+SwapIt users will be able to offer their skills in exchange for other abilities they are interested in, without the need to use money.
+
+# USER STORIES:
+
+1) As a new user, I want to create an account and complete a short onboarding to set my interests and skills I can offer, so that I can access the platform's services.
+
+2) As a registered user, I want to log in using my credentials, so that I can access my personal area and platform features.
+
+3) As a registered user, I want to see the home page after login, so that I can quickly access matches, skill discovery, active chats, reviews, and my personal area.
+
+4) As a registered user, I want to update my personal information and manage my skills, so that my profile reflects the correct information.
+
+5) As a registered user, I want to search for skills or compatible partners, so that I can find skills of my interest to learn.
+
+6) As a registered user, I want to be able to match with a partner who offers the skills that I want to learn, so that I can set up a meeting for the first lesson.
+
+7) As a registered user, I want to view the history of my past matches and reviews, so that I can keep track of my activities.
+
+8) As a registered user, I want to interact with other users via chat, so that I can understand better what they are offering and set up future meetings.
+
+9) As a registered user, I want to see the upcoming sessions together with the completed sessions, so that I can prepare for the lessons.
+
+10) As a registered user, I want to write a review rating another user’s skill and leaving a comment, so that other users can visualize my reviews and base their match better.

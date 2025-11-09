@@ -17,13 +17,14 @@ SwapIt users will be able to offer their skills in exchange for other abilities 
 
 6) As a registered user, I want to be able to match with a partner who offers the skills that I want to learn, so that I can set up a meeting for the first lesson.
 
-7) As a registered user, I want to view the history of my past matches and reviews, so that I can keep track of my activities.
+7) As a registered user, I want to view the history of my past matches on the platform, so that I can keep track of my activities.
 
 8) As a registered user, I want to interact with other users via chat, so that I can understand better what they are offering and set up future meetings.
 
 9) As a registered user, I want to see the upcoming sessions together with the completed sessions, so that I can prepare for the lessons.
 
 10) As a registered user, I want to write a review rating another user’s skill and leaving a comment, so that other users can visualize my reviews and base their match better.
+11) As a registered user, I want to view the history of passed review that I received and placed on the platform so that I can easily access and manage my review history.
 
 
 
@@ -47,12 +48,12 @@ Manage backend functionalities for User, Skill and Swap Proposal management.
 
 6) As a registered user, I want to be able to match with a partner who offers the skills that I want to learn, so that I can set up a meeting for the first lesson.
 
-7) As a registered user, I want to view the history of my past matches and reviews, so that I can keep track of my activities.
+7) As a registered user, I want to view the history of my past matches on the platform, so that I can keep track of my activities.
 
 9) As a registered user, I want to see the upcoming sessions together with the completed sessions, so that I can prepare for the lessons.
 
 10) As a registered user, I want to write a review rating another user’s skill and leaving a comment, so that other users can visualize my reviews and base their match better.
-
+11) As a registered user, I want to view the history of passed review that I received and placed on the platform so that I can easily access and manage my review history.
 
 
 ### PORTS:
@@ -203,13 +204,14 @@ Manage frontend web app for all functionalities offered by the systems.
 
 6) As a registered user, I want to be able to match with a partner who offers the skills that I want to learn, so that I can set up a meeting for the first lesson.
 
-7) As a registered user, I want to view the history of my past matches and reviews, so that I can keep track of my activities.
+7) As a registered user, I want to view the history of my past matches on the platform, so that I can keep track of my activities.
 
 8) As a registered user, I want to interact with other users via chat, so that I can understand better what they are offering and set up future meetings.
 
 9) As a registered user, I want to see the upcoming sessions together with the completed sessions, so that I can prepare for the lessons.
 
 10) As a registered user, I want to write a review rating another user’s skill and leaving a comment, so that other users can visualize my reviews and base their match better.
+11) As a registered user, I want to view the history of passed review that I received and placed on the platform so that I can easily access and manage my review history.
 
 
 

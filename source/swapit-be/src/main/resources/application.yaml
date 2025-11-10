@@ -1,0 +1,43 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /SwapItBe
+
+spring:
+  application:
+    name: swapit-be
+
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/swapit?useSSL=FALSE&allowPublicKeyRetrieval=true}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:password}
+
+  liquibase:
+    enabled: true
+    change-log: io/github/giuliodalbono/swapit/db/changelog-master.xml
+
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    properties:
+      hibernate:
+        use_sql_comments: false
+        format_sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${KAFKA_BROKERS:localhost:9092}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
